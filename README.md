@@ -2,7 +2,7 @@ This software implements filtering-based clusterings algorithm for improving Kri
 
 Main parts: Matrix operations, Kriging interpolations, Clustering functions, and filtering-based clustering.
 
-Input and output files are all text files.
+Input and output files are all text files. SOCR and IGRA datasets referenced in the paper are provided in this folder.
 
 # System requirement
 
