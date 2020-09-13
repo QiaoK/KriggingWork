@@ -99,13 +99,13 @@ DTYPE NMSE_error(Clusters* clusters,DTYPE* C,DTYPE* max_distance,VARIOGRAM_TYPE 
 All executables have built in inputs without arguments.
 
 - ./IGRA_test	
- 60 days data are read in. Chi-square values for Kriging with clustering and Kriging without clustering are computed and write to csv files for each time stamps. For example IGRA_compare_0.txt is comparison for time stamp 0.
+ * 60 days data are read in. Chi-square values for Kriging with clustering and Kriging without clustering are computed and write to csv files for each time stamps. For example IGRA_compare_0.txt is comparison for time stamp 0.
 
 - ./SOCR_test
- Test for SOCR data. NMSE, chi-square and number of clusters will be printed. Timing information will also be printed. Each cluster will be written into an individual file that shows the objects in the cluster. For example, SOCR_0.txt contains all objects in cluster with id 0. Comparison of clustered statistics and unclustered statistics will be written into SOCR_compare.txt
+ * Test for SOCR data. NMSE, chi-square and number of clusters will be printed. Timing information will also be printed. Each cluster will be written into an individual file that shows the objects in the cluster. For example, SOCR_0.txt contains all objects in cluster with id 0. Comparison of clustered statistics and unclustered statistics will be written into SOCR_compare.txt
 
 - ./matrix_test
- Unit test for matrix operations. Should pass all test cases without any alerts.
+ * Unit test for matrix operations. Should pass all test cases without any alerts.
 
 # Contact
 
