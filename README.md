@@ -1,4 +1,4 @@
-This software implements filtering-based clusterings algorithm for improving Kriging interpolation accuracy.
+This software implements filtering-based clusterings algorithm for improving Kriging interpolation accuracy in https://dl.acm.org/doi/abs/10.1145/2983323.2983668.
 Main parts: Matrix operations, Kriging interpolations, Clustering functions, and filtering-based clustering.
 Input and output files are all text files.
 
