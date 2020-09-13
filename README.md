@@ -2,22 +2,22 @@ This software implements filtering-based clusterings algorithm for improving Kri
 Main parts: Matrix operations, Kriging interpolations, Clustering functions, and filtering-based clustering.
 Input and output files are all text files.
 
-System requirement
+# System requirement
 ==================
 gcc compiler that supports C89.
 
-Compile
+# Compile
 ==================
 Use make file to compile code and test cases with command "make".
 
 ==================
-Data types
+# Data types
 
 Basic types and constants are defined in clustertype.h. For example, DTYPE means double (floating point). DWORD means long long int (integer).
 Structure types are defined in cluster.h.
 
 ==================
-Functions
+# Functions
 
 These functions are interfaces that users may be interested in. Include krigfunctions.h in order to use them.
 
@@ -94,7 +94,7 @@ DTYPE krig_variance(Cluster* cluster,Object* object,DTYPE* C,DTYPE* max_distance
 DTYPE NMSE_error(Clusters* clusters,DTYPE* C,DTYPE* max_distance,VARIOGRAM_TYPE variogram_type);
 
 ==================
-Executables
+# Executables
 
 All executables have built in inputs without arguments.
 
@@ -107,6 +107,6 @@ All executables have built in inputs without arguments.
 ./matrix_test
  * Unit test for matrix operations. Should pass all test cases without any alerts.
 
-Contact
+# Contact
 =======
 Contact me at qiao.kang@eecs.northwestern.edu if you have questions.
